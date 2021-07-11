@@ -11,8 +11,8 @@ function Projects() {
   const [t, sett] = React.useState(false);
 
   const get = () => {
-    axios.get(`https://preet-portfolio-api.herokuapp.com/projects/`).then((response) => {
-      //console.log(response.data);
+    axios.get(`https://prerna-portfolio-backend.herokuapp.com/projects/`).then((response) => {
+      console.log(response.data);
       setProject(response.data);
       sett(true);
     });
