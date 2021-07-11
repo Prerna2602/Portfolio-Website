@@ -283,6 +283,7 @@ html {
 
 .main-name {
   color: rgba(240, 43, 247, 0.966);
+  text-align: center;
 }
 
 .Typewriter__wrapper {
