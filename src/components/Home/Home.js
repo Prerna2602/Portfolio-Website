@@ -16,6 +16,7 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 className="heading-name">
                 Hi Everyone
+                <br/>
                 <strong className="main-name"> I'M Prerna Kumari </strong>
               </h1>
               <div style={{ padding: 50, textAlign: "center" }}>
